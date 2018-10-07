@@ -1,0 +1,41 @@
+{
+  "name": "luoji",
+  "version": "0.0.1",
+  "description": "using dot path to access nested properties",
+  "main": "main.js",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/exoticknight/luoji.git"
+  },
+  "author": {
+    "email": "draco.knight0@gmail.com",
+    "name": "exoticknight"
+  },
+  "keywords": [
+    "logic",
+    "assert",
+    "assertion",
+    "and",
+    "or",
+    "not"
+  ],
+  "license": "MIT",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "main.js"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@types/tape": "^4.2.32",
+    "faucet": "0.0.1",
+    "tape": "^4.9.1"
+  },
+  "scripts": {
+    "build": "rm -rf dist/* && tsc",
+    "prebuild": "npm run test",
+    "test": "ts-node ./test/index.spec.ts | faucet"
+  }
+}
