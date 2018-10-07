@@ -1,6 +1,6 @@
 {
   "name": "luoji",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "easy logic",
   "main": "main.js",
   "types": "./dist/index.d.ts",
