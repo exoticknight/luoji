@@ -1,7 +1,7 @@
 {
   "name": "luoji",
   "version": "0.0.1",
-  "description": "using dot path to access nested properties",
+  "description": "easy logic",
   "main": "main.js",
   "types": "./dist/index.d.ts",
   "repository": {
