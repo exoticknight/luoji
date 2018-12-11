@@ -12,6 +12,15 @@ test('assert true', function(t) {
   t.end()
 })
 
+test('true and false = false', function(t) {
+  t.equal(and(
+    true,
+    [1, '===', '1']
+  ), false)
+
+  t.end()
+})
+
 test('true and true = true', function(t) {
   t.equal(and(
     true,
