@@ -14,7 +14,7 @@ npm i luoji
 import {and, or, not, assert} from 'luoji'
 
 and(
-  false,
+  true,
   [1, '==', 1]
 )
 // true
